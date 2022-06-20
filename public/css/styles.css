@@ -1,0 +1,67 @@
+html,
+body {
+  height: 100%;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+/* Failure and Success Pages */
+.fail-container {
+  background-color: #e3e1e1;
+  padding: 12rem;
+}
+.h1-title {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto 1rem;
+}
+
+.desc {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  font-weight: 100;
+}
+
+.try-again-btn {
+  margin: 2rem auto 0;
+  width: 30%;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle {
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
